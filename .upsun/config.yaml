@@ -27,7 +27,7 @@ applications:
     # More information: https://docs.upsun.com/create-apps/app-reference.html#mounts
     mounts:
       "/.npm":
-        source: "local"
+        source: "storage"
         source_path: "npm"
         
       
